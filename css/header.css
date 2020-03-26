@@ -1,0 +1,95 @@
+header{
+    padding:0;
+    margin:0;
+}
+
+header a{
+    color: #000000;
+    font-size: 18px;
+}
+
+
+
+.left-logo {
+    display: flex;
+}
+
+.site-header .logos{
+    display : flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logos{
+    padding: 20px 70px;
+}
+
+.right-logo{
+    display: block;
+    text-align: right;
+}
+
+
+.nav .menu-main_menu-container{
+    background: #000000 linear-gradient(to left, #000, #393939 50%, #000000);
+    padding: 10px 0px;
+}
+
+.nav a{
+    font-size: 14px;
+    text-decoration: none;
+}
+
+nav a{
+    color: #ffffff; 
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav.nav ul:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: left;
+}
+
+ul li ul {
+    background: rgba(0, 0, 0, 0.85);
+    visibility: hidden;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+  
+  display: none;
+  border-radius: 0px 0px 5px 5px;
+  padding-top: 8px;
+  margin-left: -5px;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
+  padding: 5px 10px;
+  
+}
+
+.submenu{
+    text-align: left;
+}
+
+.toggle{
+    text-align: right;
+    width: 100%;
+    padding: 5px 20px;
+    display: block;
+    background: #000;
+}

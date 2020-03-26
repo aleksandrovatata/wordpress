@@ -1,0 +1,17 @@
+
+.site-footer{
+    
+    display: block;
+}
+
+.info-row{
+    text-align: right;
+    
+    padding: 10px 40px;
+}
+
+
+.site-footer a {
+        color: #000000;
+        text-decoration: none;
+}

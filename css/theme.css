@@ -1,0 +1,96 @@
+body{
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    color:black;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.allmodule_item{
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.allmode_title {
+    margin: 10px 0px 5px;
+    font-family: sans-serif;
+}
+
+a.allmode_link, .allmode_readmore a {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #43403a;
+    border-bottom: 2px dotted #FF9800;
+    font-weight: bold;
+}
+
+footer, header{
+    background: #fec107;
+}
+
+.banner{
+    background-image: url('http://wpfolder:99/wp-content/themes/start-theme/images/banners/ob823n0.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: block;
+    background-position: center center;
+    }
+   
+   .text-banner{
+       background: rgba(254, 193, 7, 0.85);
+       margin: 20px 0px;
+       box-shadow: 0px 0px 3px #151515;
+       padding: 20px;
+       color: transparent;
+       clear: both;
+       font-size: 1.1em;
+       display: block;
+       font-family: Open Sans, sans-serif;
+   }
+   
+   .text-banner p{
+       line-height: 26px;
+   }
+   
+
+   .column{
+       width:70%;
+       padding: 30px 150px;
+   }
+
+   .text-banner a {
+    color: #000000;
+    border-bottom: 2px dotted #43403a;
+    font-weight: bold;
+    }
+
+.bannerScience{
+    background-image: url('http://wpfolder:99/wp-content/themes/start-theme/images/banners/b_stud.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: block;
+    background-position: center center;
+    }
+
+.text-page {
+    padding: 2% 13%;
+    }
+
+    p{
+            text-align: justify;
+    }
+
+h1 {
+    text-align: center;
+    font-size: 1.6em;
+}
+h2 {
+    font-size: 1.4em;
+}
