@@ -122,10 +122,18 @@ function start_theme_scripts() {
 	
 	wp_enqueue_style( 'start-theme-homepage', get_template_directory_uri().'/css/homepage.css' );
 	wp_enqueue_style( 'start-theme-contacts', get_template_directory_uri().'/css/contacts.css' );
-	wp_enqueue_style( 'start-theme-scientificschool', get_template_directory_uri().'/css/scientificschool.css' );
-	
-	
-	
+	wp_enqueue_style( 'start-theme-scientific-school', get_template_directory_uri().'/css/scientific-school.css' );
+	wp_enqueue_style( 'start-theme-academic-council', get_template_directory_uri().'/css/academic-council.css' );
+	wp_enqueue_style( 'start-theme-laboratorija-melexis', get_template_directory_uri().'/css/laboratorija-melexis.css' );
+	wp_enqueue_style( 'start-theme-international-scientific-cooperation', get_template_directory_uri().'/css/international-scientific-cooperation.css' );
+	wp_enqueue_style( 'start-theme-osvitni-programy', get_template_directory_uri().'/css/osvitni-programy.css' );
+	wp_enqueue_style( 'start-theme-osvitni-starosti', get_template_directory_uri().'/css/starosti.css' );
+	wp_enqueue_style( 'start-theme-scientific-directions', get_template_directory_uri().'/css/scientific-directions.css' );
+	wp_enqueue_style( 'start-theme-achievements', get_template_directory_uri().'/css/achievements.css' );
+	wp_enqueue_style( 'start-theme-projects', get_template_directory_uri().'/css/projects.css' );
+	wp_enqueue_style( 'start-theme-diplomas', get_template_directory_uri().'/css/diplomas.css' );
+	wp_enqueue_style( 'start-theme-list-of-diplomas', get_template_directory_uri().'/css/list-of-diplomas.css' );
+
 	wp_enqueue_style( 'start-theme-footer', get_template_directory_uri().'/css/footer.css' );
 	wp_enqueue_style( 'start-theme-header', get_template_directory_uri().'/css/header.css' );
 	
@@ -133,6 +141,8 @@ function start_theme_scripts() {
 	wp_enqueue_style( 'start-theme-style-media', get_template_directory_uri().'/css/media.css' );
 	wp_enqueue_script( 'start-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'start-theme-homepage', get_template_directory_uri() . '/js/homepage.js');
+	wp_enqueue_script( 'start-theme-list-of-diplomas', get_template_directory_uri() . '/js/list-of-diplomas.js');
+
 	wp_enqueue_script( 'start-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

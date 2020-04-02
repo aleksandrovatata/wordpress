@@ -1,0 +1,44 @@
+.pages {
+    overflow: hidden;
+    border-bottom: 3px solid #fec107;
+    align-content: center;
+}
+
+.pages button {
+    background-color: inherit;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+  
+.pages button.active {
+    background-color:  #fec107;
+    font-size: 18px;
+}
+  
+.year, .year {
+    display: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+figure.img-center, figure.img {
+    text-align: center;
+    border: 2px solid #fec107;
+    width: 48%;
+    padding: 20px 40px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.smallScreen a{
+    text-decoration: none;
+}

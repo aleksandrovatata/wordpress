@@ -7,6 +7,7 @@ body{
 
 p{
     color:black;
+    text-align: justify;
 }
 
 ul {
@@ -59,13 +60,54 @@ footer, header{
        line-height: 26px;
    }
    
-
    .column{
        width:70%;
        padding: 30px 150px;
    }
 
-   .text-banner a {
+   .tables{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  a.at_icon:visited {
+    text-decoration: none;
+}
+
+a.at_icon:link {
+    text-decoration: none;
+}
+
+a.at_icon {
+    padding-right: 4px;
+}
+
+a.at_url:link {
+    text-decoration: none;
+}
+
+table a {
+    font-size: 1.1em;
+    color: #43403a;
+    border-bottom: 2px dotted #FF9800;
+    font-weight: bold;
+}
+
+.text-banner a {
     color: #000000;
     border-bottom: 2px dotted #43403a;
     font-weight: bold;
@@ -81,17 +123,6 @@ footer, header{
 
 .text-page {
     padding: 2% 13%;
-    width: 100%;
     }
 
-    p{
-            text-align: justify;
-    }
-
-h1 {
-    text-align: center;
-    font-size: 1.6em;
-}
-h2 {
-    font-size: 1.4em;
-}
+    
