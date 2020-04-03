@@ -34,15 +34,15 @@ get_header(); ?>
 
         <div class = "photos">
             <div class="center">
-                <figure class="img-center "><img src="http://cad.kpi.ua/images/stories/160617.jpg"><figcaption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 16.06.2017</figcaption></figure>
-                <figure class="img-center "><img src="http://cad.kpi.ua/images/stories/160617_.jpg"><figcaption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 16.06.2017</figcaption></figure>
+                <div class="img-center "><img src="http://cad.kpi.ua/images/stories/160617.jpg"><caption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 16.06.2017</caption></div>
+                <div class="img-center "><img src="http://cad.kpi.ua/images/stories/160617_.jpg"><caption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 16.06.2017</caption></div>
             </div>
             <div class="center">
-                <figure class="img-center "><img src="http://cad.kpi.ua/images/stories/210617_.jpg" mce_src="/images/stories/210617_.jpg" alt=""><figcaption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 19.06.2017</figcaption></figure>
+                <div class="img-center "><img src="http://cad.kpi.ua/images/stories/210617_.jpg"><caption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 19.06.2017</caption></div>
             </div>
             <div class="center">
-                <figure class="img-center "><img src="http://cad.kpi.ua/images/stories/photo_2017-06-20_12-52-03.jpg" mce_src="/images/stories/photo_2017-06-20_12-52-03.jpg" alt=""><figcaption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 20.06.2017</figcaption></figure>
-                <figure class="img-center "><img src="http://cad.kpi.ua/images/stories/200617.jpg" mce_src="/images/stories/200617.jpg" alt=""><figcaption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 20.06.2017</figcaption></figure>
+                <div class="img-center "><img src="http://cad.kpi.ua/images/stories/photo_2017-06-20_12-52-03.jpg"><caption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 20.06.2017</caption></div>
+                <div class="img-center "><img src="http://cad.kpi.ua/images/stories/200617.jpg"><caption>Вітаємо бакалаврів 2017 з успішним захистом!<br> 20.06.2017</caption></div>
             </div>
         </div>
 

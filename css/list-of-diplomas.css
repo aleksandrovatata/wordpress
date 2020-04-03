@@ -26,7 +26,7 @@
     justify-content: center;
 }
 
-figure.img-center, figure.img {
+.img-center {
     text-align: center;
     border: 2px solid #fec107;
     width: 48%;
@@ -35,7 +35,7 @@ figure.img-center, figure.img {
     box-shadow: 0px 0px 5px;
 }
 
-figure img {
+.img-center img {
     width: 100%;
 }
 
