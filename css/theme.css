@@ -10,10 +10,26 @@ p{
     text-align: justify;
 }
 
-ul {
+ul, ol{
+    line-height: 30px;
+}
+.text-page ul{
+    list-style: square;
+}
+
+nav ul{
     list-style: none;
     padding-inline-start: 0px;
 }
+
+ul ol{
+    padding-inline-start: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
 .allmodule_item{
     padding: 10px 0px;
     font-family: sans-serif;
@@ -32,12 +48,18 @@ a.allmode_link, .allmode_readmore a {
     font-weight: bold;
 }
 
+ol a, ul a{    
+    font-size: 1.1em;
+    color: #43403a;
+    border-bottom: 2px dotted #FF9800;
+    font-weight: bold;}
+
 footer, header{
     background: #fec107;
 }
 
 .banner{
-    background-image: url('http://wpfolder:99/wp-content/themes/start-theme/images/banners/ob823n0.jpg');
+    background-image: url('http://localhost/wordpress/wp-content/themes/start-theme/images/banners/ob823n0.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     display: block;
@@ -100,11 +122,16 @@ a.at_url:link {
     text-decoration: none;
 }
 
+.tables{
+    overflow-x: auto;
+}
+
+
 table a {
     font-size: 1.1em;
     color: #43403a;
     border-bottom: 2px dotted #FF9800;
-    font-weight: bold;
+    
 }
 
 .text-banner a {
@@ -114,7 +141,7 @@ table a {
     }
 
 .bannerScience{
-    background-image: url('http://wpfolder:99/wp-content/themes/start-theme/images/banners/b_stud.jpg');
+    background-image: url('http://localhost/wordpress/wp-content/themes/start-theme/images/banners/b_stud.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     display: block;
@@ -123,6 +150,28 @@ table a {
 
 .text-page {
     padding: 2% 13%;
-    }
+}
 
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.img-center {
+    text-align: center;
+    border: 2px solid #fec107;
+    width: 48%;
+    padding: 20px 40px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 5px;
+}
+
+.img-center img {
+    width: 100%;
+}
+
+.text-page ul{
+    list-style: square;
+}
     
+

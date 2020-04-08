@@ -1,5 +1,3 @@
-
-
 function openContent(evt, tabName) {
 	
 	// Declare all variables

@@ -1,0 +1,88 @@
+<?php /* Template Name: BeznosikPublications */
+
+?>
+
+<?php
+/**
+ * @package start_theme
+ * 
+ */
+
+get_header(); ?>
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="bannerScience">
+            <div class="column">
+                <div class="text-banner">
+                    <p><br></p>
+                    <p><b>Не знаєш де опублікувати свою роботу?</b></p>
+                    <p>Слідкуй за рубрикою <a href="#">Конференції</a>. Завжди корисна інформація, ключові дати та активні контакти!</p>
+                    <p><br></p>
+                </div>
+            </div>
+        </div>
+        <div class="text-page">
+            <h1>Публікації: Безносик Олександр Юрійович</h1>
+            <br>
+
+            <ol>
+                <li>Чкалов О. Особливості формування маршрутів проектування в системі GridAllted / Чкалов О., Булах Б., Безносик О., Мацулевич О. // Вісник Національного університету «Львівська політехніка», серія «Комп’ютерні науки та інформаційні технології». - №771. – Львів, 2014. – с. 77-84.</li>
+                <li>Безносик О.Ю. Порівняння швидкодії обмеження CHECK, реалізованого за допомогою штатних засобів СУБД і тригерів / Безносик О.Ю., Помернюк М.С. // Тези доповідей ІІ Міжнародної науково-практичної конференції "Інформаційні технології в освіті, науці і техніці" (ІТОНТ-2014) : Черкаси, 24-26 квітня 2014 р. – У 2-х томах. – Черкаси : ЧДТУ, 2014. – Т. 1. – С. 76–77.</li>
+                <li>Помернюк М.С. Порівняння засобів перевірки обмежень у реляційних СУБД / Помернюк М.С., Безносик О.Ю. // Комп'ютерне моделювання в хімії, технологіях і системах сталого розвитку - КХМТ-2014 : Збірних наукових статей Четвертої міжнар. наук.-практ. конф. – Київ : НТУУ "КПІ", 2014. – С. 282–287.</li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2014_00_bez.pdf">4 Безносик А.Ю., Помернюк М.С. Сравнение производительности ограничения CHECK, реализованного штатными средствами СУБД и с помощью триггера / Помернюк М.С., Безносик А.Ю. // Системный анализ и информационные технологии : материалы 16-й Международной научно-технической конференции SAIT 2014, Киев, 26-30 мая 2014г. – К. : УНК "ИПСА" НТУУ "КПИ", 2014. – С. 432-433.</a></li>
+                <li>Інформаційні системи прийняття рішень і логічних висновків : Методичні вказівки до виконання комплексної контрольної роботи для студентів напряму підготовки 6.050101 «Комп’ютерні науки», спеціальності 8.05010103 «Системне проектування» денної та заочної форм навчання / Укладачі : О.Ю. Безносик, В.В. Ладогубець, О.Д. Фіногенов. – К. : НТУУ «КПІ», 2013 р. – 33 c.</li>
+                <li>Теорія прийняття рішень : Методичні вказівки до виконання лабораторних робіт для студентів напряму підготовки 6.050101 «Комп’ютерні науки», спеціальностей 8.05010102 «Інформаційні технології проектування» та 8.05010103 «Системне проектування» денної та заочної форм навчання / Укладачі : О.Ю. Безносик, В.В. Ладогубець, О.Д. Фіногенов. – К. : НТУУ «КПІ», 2013 р. – 76 c.</li>
+                <li>Kiselev G. Workflow Task Description Format for GridALLTED Complex / Gennadiy Kiselev, Bogdan Bulakh, Oleksandr Beznosyk, Vitalii Chekaliuk // The Experience of Designing and Application of CAD Systems in Microelectronics : 12-th Intern. Conf. «CADSM’2013», 19-23 February 2013, Polyana-Svalyava (Zakarpattya), Ukraine : proc. – Lviv, 2013. – P. 425–426. – ISBN 978-617-607-393-2.</li>
+                <li>Теорія прийняття рішень : Методичні вказівки до виконання комплексної контрольної роботи для студентів спеціальностей 8.05010102 «Інформаційні технології проектування» та 8.05010103 «Системне проектування» денної та заочної форм навчання / Укладачі : О.Ю. Безносик, В.В. Ладогубець, О.Д. Фіногенов. – К. : НТУУ «КПІ», 2012 р. – 42 c.</li>
+                <li>Ladogubets V. An Approach to the Size Reduction for Very Large Circuit Equivalents of MEMS Non-Electrical Parts Mathematical Model / Volodymyr Ladogubets, Oleksii Finogenov, Oleksandr Beznosyk, Oleksandr Popov, Michal Szermer, Wojciech Zabierowski, Piotr Zajac // Perspective Technologies and Methods in MEMS Design : 8-th International Conference MEMSTECH’2012, 18-21 April 2012, Polyana-Svalyava (Zakarpattya), Ukraine : proc. – Lviv : Publishing House Vezha&amp;Co, 2012. – P. 174–177.</li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2012_003.pdf">Ladogubets V.V. Forming a User Function Dynamic Library for ALLTED CAD Software / Ladogubets V.V., Finogenov O.D., Beznosyk O. Yu. // Electronics and Nanotechnology : 32-th International Scientific Conference «ELNANO’2012», 10-12 April 2012, Kiev, Ukraine : proc. – Kiev, 2012. – P. &nbsp;123.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2011_002.pdf">Ladogubets V. Features of the Optimization of Mechanical Component Macromodels / Vladimir Ladogubets, Oleksii Finogenov, Oleksandr Beznosyk, Tatiana Ladogubets // The Experience of Designing and Application of CAD Systems in Microelectronics : 11-th Anniversary Intern. Conf. «CADSM’2011», 23-25 February 2011, Lviv-Polyana (Zakarpattya), Ukraine : proc. – Lviv, 2011. – P. 410–412.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2011_029.pdf">Ладогубец В.В. Анализ методов управления вычислениями при моделировании сложных объектов // Ладогубец В.В., Финогенов А.Д., Безносик А.Ю. // Математические методы в технике и технологиях : 24-я международная конференция «ММТТ-24» : 2011, Саратов, Россия : сб. тр. в 10-ти томах. – К. : Национальный техн. ун-т. Украины «КПИ», 2011. – Т. 1. – С. 142–144.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2011_009.pdf">Безносик О.Ю. Особливості обрахунку номіналів елементів при формуванні еквівалентних схем механічних об’єктів / Безносик О.Ю., Чкалов О.В., Крамар О.В. // Системный анализ и информационные технологии : 13-я международная научно-техническая конференция «САИТ-2011», 23-28 мая 2011, Киев, Украина : материалы. – К. : УНК "ИПСА" НТУУ "КПИ", 2011. – С. 357.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2011_007.pdf">Ladogubets V. Choosing an Objective Function Type When Adjusting Mechanical Components’ Macromodel Parameters / Oleksandr Beznosyk, Oleksii Finogenov, Volodymyr Ladogubets // Perspective Technologies and Methods in MEMS Design : 7-th International Conference MEMSTECH’2011, 11-14 May 2011, Polyana-Svalyava (Zakarpattya), Ukraine : proc. – Lviv : Publishing House Vezha&amp;Co, 2011. – P. 239–240.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2011_003.pdf">Ладогубець В.В. Методи підвищення ефективності Y–Δ перетворення при побудові схемних макромоделей МЕМС / Ладогубець В.В., Фіногенов О.Д., Безносик О.Ю. // Электроника и связь : тематический выпуск «Электроника и нанотехнологии». – 2011. – № 1. – С. 82–87.</a><span>&nbsp;</span><a href="http://cad.kpi.ua/attachments/043_2011_003abs.pdf" mce_href="/attachments/043_2011_003abs.pdf">&nbsp; Тези</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2011_043.pdf">Ладогубець В.В. Матричний алгоритм скорочення розмірності схемотехнічних моделей МЕМС / Ладогубець В.В., Безносик О.Ю., Кот Д.М. // Вісник університету «Україна» : Інформатика, обчислювальна техніка та кібернетика. – К. : Університет «Україна», 2011. – № 2. – С. 268–272.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2010_001.pdf">Oleksandr Beznosyk. Presentation of a System of Ordinary Differential Equations as an Equivalent Electrical Circuit / Oleksandr Beznosyk, Oleksii Finogenov, Volodymyr Ladogubets // Perspective Technologies and Methods in MEMS Design : VI-th International Conference MEMSTECH’2010, 20-23 April 2010, Lviv-Polyana, Ukraine: proc. – Lviv : Publishing House Vezha &amp; Co , 2010. – P. 116–120.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2010_011.pdf">Безносик А.Ю. Особенности оптимизации макромоделей механических компонентов с несколькими степенями свободы / Безносик А.Ю., Ладогубец Т.С., Ладогубец А.В. // Системный анализ и информационные технологии : 12-я международная научно-техническая конференция «САИТ-2010», 25-29 мая 2010, Киев, Украина : материалы. – К. : УНК "ИПСА" НТУУ "КПИ", 2010. – С. 356.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2010_012.pdf">Безносик А.Ю. Организация многопользовательского web-доступа к САПР ALLTED / Безносик А.Ю., Скрипка М.Ю., Зеленюк А.А. // Системный анализ и информационные технологии : 12-я международная научно-техническая конференция "САИТ-2010", 25-29 мая 2010, Киев, Украина : материалы. - К. : УНК "ИПСА" НТУУ "КПИ", 2010. - С. 357.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2010_038.pdf">Ladogubets V. Straight Pipeline Simulation / Ladogubets V., Tchkalov O., Beznosyk O., Finogenov O. // CAD in Machinery Design. Implementation and Educational Problems : 18-th Ukranian–Polish Conference «CADMD’2010», October 14-16, 2010, Lviv, Ukraine: Proc. – Lviv: Vezha &amp; Co , 2010. – P. 23–26.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2010_056.pdf">Ладогубець В.В. Особливості оптимізації макромоделей механічних компонентів / Ладогубець В.В., Фіногенов О.Д., Безносик О.Ю. // Інформатика, управління та обчислювальна техніка : вісник НТУУ «КПІ». – 2010. – Вип. 52. – С. 96–102.</a></li>
+                <li>Петренко А.И. Расчет собственных частот мембранных структур с использованием пакетов схемотехнического проектирования / Петренко А.И., Ладогубец В.В., Безносик А.Ю. [и др.] // Радиоэлектроника. – 2009. – № 7. – С. 19–25. – (Известия вузов).</li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_031.pdf">Безносик О.Ю. Зменшення неоднозначності алгоритму скорочення розмірності RLC-схем / Безносик О.Ю., Кот Д.М. // Вісник НТУУ «КПІ». Інформатика, управління та обчислювальна техніка: Зб. наук. пр. – К. : ВЕК+, 2009. – № 50. – С. 19–22.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_002.pdf">Ладогубец В.В. Методика построения моделей механических компонентов МЭМС для пакетов схемотехнического проектирования / Ладогубец В.В., Чкалов А.В., Безносик А.Ю., Финогенов А.Д. // Электроника и связь : тематический выпуск «Электроника и нанотехнологии». – 2009. – Ч. 1, № 2/3. – С. 298–305.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_005.pdf">Anatolii Petrenko. Using Optimization Procedures to Calculate Parameters of MEMS Macromodels / Anatolii Petrenko, Volodymyr Ladogubets, Oleksandr Beznosyk, Oleksii Finogenov // The Experience of Designing and Application of CAD Systems in Microelectronics : 10-th Anniversary Intern. Conf. «CADSM’2009», 24-28 February 2009, Polyana-Svalyava (Zakarpattya), Ukraine : proc. – Lviv, 2009. – P. 511–514.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_006.pdf">Oleksandr Beznosyk. Making a Mechanical Components Library for Circuit Design Software / Oleksandr Beznosyk, Oleksii Finogenov, Volodymyr Ladogubets, Oleksii Tchkalov // Perspective Technologies and Methods in MEMS Design : V-th International Conference MEMSTECH’2009, 22-24 April 2009, Lviv-Polyana, Ukraine: proc. – Lviv : Publishing House Vezha &amp; Co , 2009. – P. 120-122.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_008.pdf">Безносик А.Ю. Использование пакетов схемотехнического проектирования для расчета деформаций механических компонентов / Безносик А.Ю., Ладогубец В.В., Финогенов А.Д.,&nbsp; Чкалов А.В. // Системный анализ и информационные технологии : 11-я международная научно-техническая конференция «САИТ-2009», 26-30 мая 2009, Киев, Украина : материалы. – К. : УНК "ИПСА" НТУУ "КПИ", 2009. – С. 419.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_018.pdf">Безносик О.Ю. Метод отримання схемних аналогів макромоделей МЕМС / Безносик О.Ю., Фіногенов О.Д., Ладогубець Т.С., Ладогубець О.В. // Прикладна математика та комп'ютинг : 1-а наукова конференція магістратів та аспірантів «ПМК-2009», 15-17 квітня 2009, Київ, Україна : зб. тез / ред. кол. : С.В. Сирота (гол. ред.) та ін. – К. : НТУУ "КПІ", 2009. – С. 116–119.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2009_020.pdf">Петренко А.І. Використання пакетів схемотехнічного проектування для побудови моделей механічних компонентів / Петренко А.І., Ладогубець В.В., Безносик О.Ю. [та ін.] // Вісник НУ «Львівська політехніка»: Комп’ютерні науки та інформаційні технології. – 2009. – № 638. – С. 18-22.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2008_025.pdf">Ладогубец В.В. Метод построения макромоделей МЭМС / Ладогубец В.В., Чкалов&nbsp;А.В., Безносик А.Ю.,&nbsp; Финогенов А.Д. // СВЧ-техника и телекоммуникационные технологии : 18-я Международная Крымская конференция «КрыМиКо’2008», 8-12 сент. 2008, Севастополь, Крым, Украина : материалы. – Севастополь: Вебер, 2008. – Т. 1. – С. 147–148.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2008_015.pdf">Безносик А.Ю. Сравнительное исследование пакетов схемотехнического проектирования ALLTED и &nbsp;HSPICE / Безносик А.Ю. / Комп’ютерне моделювання в хімії та технологіях : 1-а науково-практична конференція з міжнародною участю, Черкаси, 12–16 травня 2008 р. : тези доповідей. – Черкаси : Вид-во «Черкаський ЦНТЕІ», 2008. – С. 155.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2008_023.pdf">Beznosyk O. Using circuit design software to simulate microelectromechanical components / Beznosyk O., Finogenov O., Ladogubets V., Tchkalov O. // Perspective Technologies and Methods in MEMS Design : IV-th International Conference of Young Scientists MEMSTECH’2008, 21-24 May 2008, Lviv-Polyana, Ukraine: proc. – Lviv : Publishing House Vezha &amp; Co , 2008. – P. 130–133.</a></li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2008_012.pdf">Безносик О.Ю.&nbsp;Використання пакетів схемотехнічного проектування для моделювання механічних компонентів / Безносик О.Ю., Ладогубець В.В., Фіногенов О.Д., Чкалов&nbsp;О.В. // Системний аналіз та інформаційні технології : 10-а міжнародна науково-технічна конференція «САІТ-2008», 20-24 травня 2008, Київ, Україна : матеріали. – К. : НТУУ «КПІ», 2008. – С. 286.</a></li>
+                <li>Безносик А.Ю. Построение эквивалентных моделей балочных структур / Безносик А.Ю. // Вісник НТУУ «КПІ». Інформатика, управління та обчислювальна техніка: Зб. наук. пр. – 2008. – № 48. – С. 94–98.</li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2008_011.pdf">Безносик А.Ю. Построение пассивных моделей МЭМС / Безносик А.Ю., Ладогубец В.В., Финогенов А.Д., Чкалов&nbsp;А.В. // Системный анализ и информационные технологии : 10-я международная научно-техническая конференция «САИТ-2008», Киев : материалы. – К.: НТУУ «КПИ», 2008. – С. 285.</a></li>
+                <li>Ладогубец В.В. Метод формирования схемных реализаций математических моделей неэлектрических объектов / Ладогубец В.В., Чкалов&nbsp;А.В., Безносик А.Ю.,&nbsp; Финогенов А.Д. // Моделювання та інформаційні технології : зб. наук. пр. – 2008. – Вип. 46. – С.&nbsp;114–120.</li>
+                <li>Безносик А.Ю. Сравнительное исследование пакетов схемотехнического проектирования ALLTED и &nbsp;HSPICE // Математические методы в технике и технологиях : 21-я международная конференция «ММТТ-21», 2008, Саратов, Россия : сб. трудов в 10-ти томах. – Саратов : Изд-во Саратов. гос. &nbsp;техн. ун-та, 2008. – Т. 6. – С. 119–120.</li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2008_001.pdf">Ладогубец В.В. Методы макромоделирования МЭМС / Ладогубец В.В., Безносик А.Ю., Крамар А.В., Финогенов А.Д. // Электроника и связь : тематический выпуск «Проблемы электроники». – 2008. – Ч. 1. – С. 244–248.</a></li>
+                <li>Beznosyk O.Y. Simulation of BJT and MOSFET based circuits by ALLTED and HSPICE software / Beznosyk O.Y. // Математические методы в технике и технологиях : 20-я международная конференция «ММТТ-20», 2007, Ярославль, Россия : сб. трудов в 10-ти томах. – Ярославль : Изд-во Яросл. гос. техн. ун-та, 2007. – Т. 4. – С. 224–227.</li>
+                <li><a href="http://cad.kpi.ua/attachments/043_2007_006.pdf">Безносик А.Ю. Моделирование тестовых электронных схем с помощью пакетов схемотехнического проектирования ALLTED и HSPICE / Безносик А.Ю. // Системний аналіз та інформаційні технології :&nbsp; 9-а міжнародна науково-технічна конф. "САІТ-2007", 15-19 травня 2007 р., Київ : матеріали конф. - К. : НТУУ "КПІ", 2007. - С. 142.</a></li>
+                <li>Beznosyk O.Y. The comparative investigation of the ALLTED and HSPICE circuit design software / Beznosyk O.Y. // Perspective Technologies and Methods in MEMS Design : I-th International Conference of Young Scientists MEMSTECH’2005, 25-28 May 2005, Lviv-Polyana, Ukraine: proc. – Lviv : Publishing House of Lviv Polytechnic National University, 2005. – P. 87–98.</li>
+                <li>Кисельов Г.Д. Розробка навчальної системи на основі сучасних інформаційних технологій // Кисельов Г.Д., Безносик О.Ю. // Электроника и связь. – 1999. – Т. 1, № 6. – С. 168–172.</li>
+                <li>Бугаева Л.Н. Использование метода вывода, основанного на случае, для принятия решений в интеллектуальной системе моделирования // Бугаева Л.Н., Безносик А.Ю. // Математические методы в химии и технологиях : 11-я международная конференция «ММХТ-11», 1998, Владимир, Россия : сб. тез. докл. в 2-х томах. – Владимир : Владим. гос. ун-т, 1998. – Т. 2. – С. 286–287.</li>
+            </ol>
+
+        </div>
+    </div>
+
+    <?php get_footer(); ?>
+</body>
+
+</html>

@@ -42,6 +42,10 @@ if ( ! function_exists( 'start_theme_setup' ) ) :
 		 */
 		add_theme_support( 'post-thumbnails' );
 
+		// This theme uses wp_nav_menu() in one location.
+		register_nav_menus( array(
+			'menu-1' => esc_html__( 'Primary', 'start-theme' ),
+		) );
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -118,33 +122,42 @@ add_action( 'widgets_init', 'start_theme_widgets_init' );
 function start_theme_scripts() {
 	wp_enqueue_style( 'start-theme-style', get_stylesheet_uri() );
 
-	
+	wp_enqueue_style( 'start-theme-style-my', get_template_directory_uri().'/css/theme.css' );
 	
 	wp_enqueue_style( 'start-theme-homepage', get_template_directory_uri().'/css/homepage.css' );
 	wp_enqueue_style( 'start-theme-contacts', get_template_directory_uri().'/css/contacts.css' );
-	wp_enqueue_style( 'start-theme-scientific-school', get_template_directory_uri().'/css/scientific-school.css' );
-	wp_enqueue_style( 'start-theme-academic-council', get_template_directory_uri().'/css/academic-council.css' );
 	wp_enqueue_style( 'start-theme-laboratorija-melexis', get_template_directory_uri().'/css/laboratorija-melexis.css' );
 	wp_enqueue_style( 'start-theme-international-scientific-cooperation', get_template_directory_uri().'/css/international-scientific-cooperation.css' );
 	wp_enqueue_style( 'start-theme-osvitni-programy', get_template_directory_uri().'/css/osvitni-programy.css' );
 	wp_enqueue_style( 'start-theme-osvitni-starosti', get_template_directory_uri().'/css/starosti.css' );
+	wp_enqueue_style( 'start-theme-scientific-school', get_template_directory_uri().'/css/scientific-school.css' );
+	wp_enqueue_style( 'start-theme-academic-council', get_template_directory_uri().'/css/academic-council.css' );
 	wp_enqueue_style( 'start-theme-scientific-directions', get_template_directory_uri().'/css/scientific-directions.css' );
-	wp_enqueue_style( 'start-theme-achievements', get_template_directory_uri().'/css/achievements.css' );
-	wp_enqueue_style( 'start-theme-projects', get_template_directory_uri().'/css/projects.css' );
-	wp_enqueue_style( 'start-theme-diplomas', get_template_directory_uri().'/css/diplomas.css' );
-	wp_enqueue_style( 'start-theme-list-of-diplomas', get_template_directory_uri().'/css/list-of-diplomas.css' );
-
+	wp_enqueue_style( 'start-theme-polozhennja-pro-imenni-stipendii', get_template_directory_uri().'/css/polozhennja-pro-imenni-stipendii.css' );
+	wp_enqueue_style( 'start-theme-rozklad', get_template_directory_uri().'/css/rozklad.css');
+	wp_enqueue_style( 'start-theme-navchalnij-plan', get_template_directory_uri().'/css/navchalnij-plan.css');
+	wp_enqueue_style( 'start-theme-navchalna-dokumentacja', get_template_directory_uri().'/css/navchalna-dokumentacja.css');
+	wp_enqueue_style( 'start-theme-diplomas', get_template_directory_uri().'/css/diplomas.css');
+	wp_enqueue_style( 'start-theme-projects', get_template_directory_uri().'/css/projects.css');
+	wp_enqueue_style( 'start-theme-achievements', get_template_directory_uri().'/css/achievements.css');
+	wp_enqueue_style( 'start-theme-list-of-diplomas', get_template_directory_uri().'/css/list-of-diplomas.css');
+	wp_enqueue_style( 'start-theme-official-information', get_template_directory_uri().'/css/official-information.css');
+	wp_enqueue_style( 'start-theme-istorja-kafedri', get_template_directory_uri().'/css/istorja-kafedri.css');
+	wp_enqueue_style( 'start-theme-personal', get_template_directory_uri().'/css/personal.css');
+	wp_enqueue_style( 'start-theme-pracevlashtuvannja', get_template_directory_uri().'/css/pracevlashtuvannja.css');
+	wp_enqueue_style( 'start-theme-student-publications', get_template_directory_uri().'/css/student-publications.css');
+	
 	wp_enqueue_style( 'start-theme-footer', get_template_directory_uri().'/css/footer.css' );
 	wp_enqueue_style( 'start-theme-header', get_template_directory_uri().'/css/header.css' );
 	
-	wp_enqueue_style( 'start-theme-style-my', get_template_directory_uri().'/css/theme.css' );
+	
 	wp_enqueue_style( 'start-theme-style-media', get_template_directory_uri().'/css/media.css' );
 	wp_enqueue_script( 'start-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 	wp_enqueue_script( 'start-theme-homepage', get_template_directory_uri() . '/js/homepage.js');
-	wp_enqueue_script( 'start-theme-list-of-diplomas', get_template_directory_uri() . '/js/list-of-diplomas.js');
-
+	wp_enqueue_script( 'start-theme-diploma', get_template_directory_uri() . '/js/list-of-diplomas.js');
+	wp_enqueue_script( 'start-theme-expandable-block', get_template_directory_uri() . '/js/expandable-block.js');
 	wp_enqueue_script( 'start-theme-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
-
+	
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

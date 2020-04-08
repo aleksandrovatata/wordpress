@@ -45,9 +45,7 @@
 		</div>
 		</div>
 		<nav class = "nav" id = "nav">
-			<!--iv class = "toggle">
-				<i id = "togle" class="fa fa-bars fa-2x toggle" aria-hidden="true" onclick="myFunction()" style="color:#ffffff;"></i>
-			</div-->
+			
 		<?php wp_nav_menu("menu=main_menu"); ?>
 		
 		</nav>

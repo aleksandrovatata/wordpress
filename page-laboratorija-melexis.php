@@ -1,4 +1,4 @@
-<?php /* Template Name: Laboratorija-melexis */ 
+<?php /* Template Name: LaboratorijaMelexis */ 
 
 ?>
 

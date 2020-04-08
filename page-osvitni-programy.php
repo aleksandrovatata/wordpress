@@ -1,4 +1,4 @@
-<?php /* Template Name: Osvitni-programy */ 
+<?php /* Template Name: OsvitniProgramy */ 
 
 ?>
 
